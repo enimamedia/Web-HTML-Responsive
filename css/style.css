@@ -1,0 +1,131 @@
+@font-face {
+    font-family: myFont;
+    src: url('../font/Raleway/Raleway-Regular.ttf');
+}
+
+.container{
+    margin:0;
+    padding:0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: myFont;
+    margin: 0;
+    padding: 0;
+}
+
+/*Syntax CSS Untuk Menu*/
+.navbar{
+    margin-top: 80px;
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+/*End Syntax CSS Menu*/
+
+/*Syntax CSS Untuk Top Header Logo*/
+.top-header{
+    padding:10px 0px;
+    background: #595959;
+    color:#ffffff;
+}
+.top-header h4{
+    font-size:15px;
+    font-weight:normal;
+    text-align: center;
+}
+.header{
+    padding: 0px 0px;
+}
+.header img{
+    width:100%;
+}
+.nav-header{
+    vertical-align: middle;
+}
+
+/*Syntax CSS Content-Body*/
+.content-body h2{
+    font-family: myFont;
+    font-size: 35px!important;
+    font-weight: 400;
+    letter-spacing: 10px;
+    line-height: 1.5;
+}
+.content-body p{
+    line-height: 2em;
+}
+
+/*Syntax CSS Sidebar*/
+.content-sidebar{
+    padding:10px 25px;
+}
+.content-sidebar h2{
+    font-family: myFont;
+    margin-bottom:20px;
+    font-size: 20px!important;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.border-btm-sidebar{
+    border-bottom: 1px solid #757575;
+    margin-top:-10px;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 50px;
+}
+
+/*Syntax CSS Untuk Sidebar Appreciation*/
+.appreciation-sidebar{
+    padding:10px 0px;
+}
+.appreciation-sidebar li{
+    padding-top:10px;
+    list-style: none;
+    font-size:14px;
+}
+
+/*Syntax Footer*/
+.menu-footer h4{
+    font-weight: 600;
+}
+.nav-footer{
+    padding:10px 0px;
+}
+.nav-footer li{
+    padding-top:10px;
+    list-style: none;
+    font-size:14px;
+}
+
+.nav-contact{
+    padding:10px 0px;
+}
+.nav-contact li{
+    padding-top:10px;
+    list-style: none;
+    font-size:14px;
+}
+
+.footer{
+    margin-top:50px;
+    padding: 10px 0px;
+    background: #595959;
+    color:#ffffff;
+}
+.footer h5{
+    font-weight:normal;
+    text-align: center;
+}
+
+.portofolio-item{
+    margin-top:20px;
+    padding:0;
+}
+
+.portofolio-item img{
+    height:150px;
+}
